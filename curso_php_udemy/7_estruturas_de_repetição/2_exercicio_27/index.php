@@ -24,7 +24,7 @@ while ($y < $x) {
     // COMPARA O QUE É TIPO STRING NO ARRAY
     if (is_string($array[$y])) {
         //IMPRIME O QUE FOR STRING
-        echo $array[$y]."\n";
+        echo $array[$y]."<br>";
     }
     //INCREMENTA
     $y++;
