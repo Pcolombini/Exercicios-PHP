@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 29</title>
     <style>
-        html{
+        html {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-        .list{
+
+        .list {
             text-align: start;
             font-size: 16pt;
             list-style: none;
         }
-        .center{
+
+        .center {
             text-align: center;
         }
     </style>
 </head>
+
 <body>
     <ul class="list">
         <li>Crie um array com valores inteiros de 10 a 100;</li>
@@ -26,10 +30,10 @@
     </ul>
     <hr>
     <p class="center">
-    <?php 
-        $arr = [10,20,30,40,50,60,70,80,90,100];
+        <?php
+        $arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
         // var_dump($arr);
-        
+
         $contador = 0;
 
         while ($contador < count($arr)) {
@@ -42,11 +46,12 @@
             }
 
             echo "Elementos: $n <br>";
-            
+
 
             $contador++;
         }
-    ?>
+        ?>
     </p>
 </body>
+
 </html>
