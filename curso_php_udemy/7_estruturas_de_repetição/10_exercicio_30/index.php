@@ -26,7 +26,7 @@
                 if ($arr[$i] % 2 == 0) {
                     echo "Número: <b>$arr[$i]</b><br>";
                 }
-                
+
             }
             
             // for ($i=1; $i < count($arr) ; $i+=2) { 
@@ -34,15 +34,6 @@
             // }
         ?>
     </div>
-    <script>
-        let titulo = document.getElementById('titulo');
-        let box = document.getElementById('box');
-        titulo.style.textAlign = 'center';
-        box.style.border = 'solid 1px black';
-        box.style.fontSize = '16pt';
-        box.style.width = '250px';
-        box.style.margin = 'auto';
-        box.style.textAlign = 'center';
-    </script>
+    <script src="aula10.js"></script>
 </body>
 </html>
