@@ -1,0 +1,31 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#title{
+    font-size: 16pt;
+    text-align: center;
+}
+
+#tarefas ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+#forms{
+    width: 100%;
+    margin: 4px auto;
+    cursor: pointer;
+}
+
+#enviar{
+    margin-top: 6px;
+    padding: 8px;
+    border-radius:4px;
+}
+
+#php p{
+    font-size: 14pt;
+    font-weight: 100;
+    text-align: center;
+}
