@@ -1,0 +1,52 @@
+html{
+    font-family: 'Mirza', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.list{
+    list-style: none;
+}
+
+.list::first-letter{
+    font-size: 22pt;
+    color: red;
+}
+
+.title{
+    text-align: center;
+    text-shadow: 1px 1px 1px red;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-btn{
+    padding: 8px;
+    display: block;
+    font-weight: 700;
+    width: 100%;
+    max-width: 70px;
+    margin: 8px auto;
+}
+
+.btn-btn:hover{
+    cursor: pointer;
+    transform:translate(1px,1px);
+    color: #252525;
+}
+
+input[type="text"]{
+    width: 98%;
+}
+
+input[type="text"]:hover{
+    background-color: #eeeaea;
+}
+
+fieldset{
+
+}
