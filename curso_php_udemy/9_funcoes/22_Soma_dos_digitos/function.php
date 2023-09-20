@@ -1,5 +1,9 @@
 <?php 
 
+$numero = filter_var($_GET['numero'], FILTER_SANITIZE_NUMBER_INT);
+
+// var_dump($numero);
+
 function sumDigits($num) 
 {
     if (isset($num)) {
@@ -10,6 +14,6 @@ function sumDigits($num)
     }
 }
 
-$soma = sumDigits($_GET['numero']);
+$soma = sumDigits($numero);
 
 echo($soma);
